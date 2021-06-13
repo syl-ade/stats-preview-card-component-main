@@ -20,7 +20,7 @@ body{
     margin: 200px auto;
 
 }
-.left-side {
+.side-one {
     width:50%;
     display: table-cell;
     vertical-align: top;
@@ -28,7 +28,7 @@ body{
 border-radius:  1% 0 0 1% ;
 padding: 70px;
 }
-.right-side {
+.side-two{
     display: table-cell;
     width:50%;
 border-radius: 0 1% 1% 0;
@@ -85,3 +85,53 @@ border-radius: 0 1% 1% 0;
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width: 375px) {
+    .container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 50px;
+    }
+.side-one{
+    text-align: center;
+    padding: 17px;
+border-radius: 0 0 5px 5px ;
+width: 90%;
+}
+
+.side-two{
+border-radius:  5px 5px 0 0;
+width: 90%;
+}
+
+img{
+    max-width: 300px;
+    height: auto;
+border-radius:  5px 5px 0 0;
+}
+
+ .one{
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        padding-right: 10px;
+        padding-left: 10px;
+
+    }
+ .two {
+        font-size: 12px;
+        line-height: 1.5;
+        padding-right: 35px;
+        padding-left: 35px;
+        margin-bottom: 40px;
+
+    }
+.row {
+        display:flex;
+        flex-direction: column;
+        }
+    div.col{
+        margin-bottom: 15px;
+    }
+}
