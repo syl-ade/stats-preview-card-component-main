@@ -44,7 +44,7 @@ Screenshots available in the repo
 
 ### What I learned
 
-I learned to add tint to the photographies. I became familiar with tables while working on this card. Also I had to use flex-direction: column-reverse for the first time. 
+I learned how to add tint to the photographies. I became familiar with tables while working on this card. Also I had to use flex-direction: column-reverse for the first time. 
 
 
 
